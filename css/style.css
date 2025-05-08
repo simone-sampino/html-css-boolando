@@ -1,5 +1,57 @@
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Generics */
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #FF6900;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Utils */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+/* Navbar */
+nav {
+    padding: 20px;
+    
+    ul {
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+            margin: 0 5px;
+        }
+
+        #logo {
+            height: 30px;
+        }
+        
+        img {
+            height: 20px;
+            margin: 0 5px;
+        }
+    }
 }
