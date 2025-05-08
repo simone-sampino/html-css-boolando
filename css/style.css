@@ -39,7 +39,7 @@ a {
 
 /* Navbar */
 nav {
-    padding: 20px;
+    padding: 10px 0;
     
     ul {
         justify-content: space-between;
@@ -64,11 +64,12 @@ nav {
 .row {
     display: flex;
     flex-wrap: wrap;
+    margin: 30px 0;
 }
 
 .col-4 {
     width: calc(100% / 12 * 4);
-    padding: 20px;
+    padding: 0 10px;
 }
 
 .card {
@@ -86,7 +87,7 @@ nav {
     width: 50px;
     position: absolute;
     top: 10px;
-    left: 310px;
+    left: 330px;
 
     img {
         padding: 10px;
@@ -97,8 +98,9 @@ nav {
     background-color: #ff0000;
     padding: 5px 10px;
     font-size: 0.8rem;
+    font-weight: 600;
     position: absolute;
-    top: 460px;
+    top: 490px;
     left: 0px;
 }
 
@@ -106,9 +108,20 @@ nav {
     background-color: #008000;
     padding: 5px 15px;
     font-size: 0.8rem;
+    font-weight: 600;
     position: absolute;
-    top: 460px;
+    top: 490px;
     left: 55px;
+}
+
+.eco-friendly-no-discount {
+    background-color: #008000;
+    padding: 5px 15px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    position: absolute;
+    top: 490px;
+    left: 0px;
 }
 
 .product-info {
