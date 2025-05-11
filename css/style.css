@@ -12,6 +12,12 @@ body {
 
 header {
     background-color: #FF6900;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    
 }
 
 ul {
@@ -78,6 +84,22 @@ a {
     
     img {
         max-width: 100%;
+        vertical-align: middle;
+    }
+
+    .back {
+        display: none;
+    }
+        
+    &:hover {
+
+        .back {
+            display: block;
+        }
+
+        .front {
+            display: none;
+        }
     }
 }
 
