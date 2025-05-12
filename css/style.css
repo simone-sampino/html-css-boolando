@@ -47,8 +47,16 @@ a {
 .navbar {
     padding: 10px 0;
     
+    .nav-right {
+        justify-content: flex-end;
+    }
+
+    .nav-center {
+        justify-content: center;
+    }
+    
     ul {
-        justify-content: space-between;
+        flex-grow: 1;
         align-items: center;
 
         a {
